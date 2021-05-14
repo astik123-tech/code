@@ -16,6 +16,7 @@ int main() {
             current++;
         }else{
             pd = arr[j] - arr[j-1];
+            current=2;
         }
         answer = max(answer, current);
         j++;
